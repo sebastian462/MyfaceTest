@@ -7,9 +7,12 @@
 </head>
 <body>
 
-     <header class="header">
-        <div class="menu container">         
-             <a href="#" class="logo">MyFace</a>
+    <nav class="navbar-fixed">
+        <div class="menu container">    
+             <a href="#" class="logo">
+             <img src="imagenes/logo1.png" alt="Logo MyFace">
+             </a>
+
              <input type="checkbox" id="menu">
              <label for="menu">
                   <img src="imagenes/menu.png" class="menu-icono" alt="">
@@ -17,21 +20,21 @@
              <nav class="navbar">
                  <ul>
                         <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Soporte</a></li>
+                        <li><a href="#servicios-ya">Servicios</a></li>
+                        <li><a href="#ayuda">Soporte</a></li>
                  </ul>
              </nav>
         </div>
+    </nav>
+
+    <header class="header">
         <div class="header-content container">
             <div class="header-txt">                      
-                <h1>MyFace</h1>
-                <span>Colombia</span>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis tenetur quas minus asperiores quaerat distinctio, 
-                    fugit quia eligendi iste, error doloribus non ex nihil porro libero in.
-                    Earum, quae cupiditate!
-                </p>
-                <a href="#" class="btn-1">Informacion</a>
+                <span>Practicidad ante tus necesidades</span>
+                <h2>
+                    Descubre una Solucion!
+                </h2>
+                <a href="#servicios-ya" class="btn-1">Adquirir</a>
 
             </div>
             <div class="header-dir">
@@ -55,9 +58,9 @@
                  </div>
             </div>
         </div>
-     </header>
-
-    <section class="Welcome">
+    </header>
+     
+    <section class="welcome">
 
         <div class="welcome-1"></div>
 
@@ -66,69 +69,80 @@
             <h2>Bienvenido a MyFace</h2>
 
             <p class="b1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, adipisci exercitationem debitis nemo deleniti assumenda
-                sequi ipsam mollitia totam temporibus nam enim commodi nihil,
-                omnis laudantium dolores ratione ducimus non!
+               MyFace es una plataforma digital para solucionar la dificultad en la contratación de servicios, facilitando la interacción entre proveedores y clientes.
+            </p>
+            <p>
+                Permitirá optimizar el proceso de búsqueda y contratación de servicios independientes, brindando un espacio seguro y estructurado para la interacción entre proveedores y clientes.
             </p>
                 
-            <p>       
-                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque rerum ipsum modi impedit praesentium ex,
-                 nemo fugit ullam aspernatur, sit neque repellendus dolor!
-                 Voluptas id saepe sint, deleniti quia deserunt!            
-            </p>
             <a href="#" class="btn-1">Informacion</a>
         </div>
     </section>
 
+    <section id="servicios-ya">
     <main class="services container">
 
         <div class="services-txt">
-              <h2>Servicioa Disponibles</h2>
+              <h2>Servicios Disponibles</h2>
               <hr>
-              <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus perferendis quisquam cupiditate laudantium nisi sit recusandae explicabo! 
-                  Totam ea odio harum repellendus atque eius modi, in saepe rem repellat placeat?
-              </p>
+              
         </div>
         <div class="services-group">
              <div class="services-1">
-                <img src="imagenes/i1.svg" alt="">
-                <h3>Servicio 1</h3>
+                <img src="imagenes/fotografo.jpg" alt="">
+                <h3>fotografo</h3>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis cumque, ea optio minima harum architecto impedit molestias earum a corporis 
-                    laborum illo ipsum sed voluptates mollitia error distinctio dolorum aspernatur.
+                    Mi nombre es Samuel Martinez, practico la fotografia hace 10 años, mi rama es la moda. Sera un gusto atenderte, ¡Mira mi portafolio
+                </p>
+                <p>
+                    <td>$100.000</td>
                 </p>
                 <a href="#">Saber mas</a>
              </div>
               <div class="services-1">
-                <img src="imagenes/i2.svg" alt="">
-                <h3>Servicio 2</h3>
+                <img src="imagenes/chef.jpg" alt="">
+                <h3>chef</h3>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis cumque, ea optio minima harum architecto impedit molestias earum a corporis 
-                    laborum illo ipsum sed voluptates mollitia error distinctio dolorum aspernatur.
+                    Mi nombre es Juan Gomez, practico la cocina hace 5 años, especializado en reposteria. Sera un gusto atenderte, ¡Mira mi portafolio
+                </p>
+                <p>
+                    <td>$60.000</td>
                 </p>
                 <a href="#">Saber mas</a>
              </div>
               <div class="services-1">
-                <img src="imagenes/i3.svg" alt="">
-                <h3>Servicio 3</h3>
+                <img src="imagenes/jardinero.jpg" alt="">
+                <h3>Jardineria</h3>
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis cumque, ea optio minima harum architecto impedit molestias earum a corporis 
-                    laborum illo ipsum sed voluptates mollitia error distinctio dolorum aspernatur.
-
+                    Mi nombre es Esteban  Mauricio, practico la jardinería hace 10 años. Sera un gusto
+                    atenderte, ¡Mira mi portafolio!
+                </p>
+                <p>
+                    <td>$30.000</td>
+                </p>
+                <a href="#">Saber mas</a>
+             </div>
+             <div class="services-1">
+                <img src="imagenes/profesor.jpg" alt="">
+                <h3>Profesor</h3>
+                <p>
+                    Mi nombre es Mariana Lopera, practico la docencia hace 10 años, licenciada en matemáticas. Sera un gusto atenderte, ¡Mira mi portafolio!
+                </p>
+                <p>
+                    <td>$50.000</td>
                 </p>
                 <a href="#">Saber mas</a>
              </div>
         </div>
-        <a href="#" class="btn-1">Informacion</a>
     </main>
-     
+
+    </section>
+    
     <section class="prices">
           <div class="prices-1">
-             <h2>Lista de precios</h2>
+             <h2>precios competitivos</h2>
              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam vitae in doloribus nesciunt quos quas aut. 
-                Quibusdam numquam fugiat impedit id animi tempora et delectus commodi vel. Non, nobis iste!
+                Contamos con una linea de servicicios, a precios unicos en el mercado, totalmente seguros!!
              </p>
 
              <table>
@@ -145,17 +159,21 @@
                         <th>Fotografo</th>
                         <td>$100000</td>
                     </tr>
+                    <tr>
+                        <th>Profesor</th>
+                        <td>$50.000</td>
+                    </tr>
                 </tbody>
              </table>
-             <a href="#" class="btn-1">Informacion</a>
+             <a href="#servicios-ya" class="btn-1">Informacion</a>
           </div>
           <div class="prices-2"></div>
     </section>
-
-    <section class="personal container">
-          
+    
+    <section id="ayuda">
+    <section class="personal container">       
            <div class="personal-txt">
-                <h2>Nuestros Colaboradores</h2>
+                <h2>Soporte</h2>
                 <hr>
                 <p>
                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates velit, accusamus totam alias
@@ -164,33 +182,32 @@
            </div>
            <div class="personal-group">
                 <div class="personal-1">
-                     <img src="imagenes/b1.jpg" alt="">
-                     <h3>Lorem</h3>
-                     <p>
+                     <img src="imagenes/notificacion2.png" alt="">
+                     <h3>Notificaciones</h3>
+                     <!--<p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     </p>
-                     <a href="#">Saber mas</a>
+                     </p> -->
+                     <a href="#"class="btn-1">Saber mas</a>
                 </div>
                 <div class="personal-1">
-                     <img src="imagenes/b2.jpg" alt="">
-                     <h3>Lorem</h3>
-                     <p>
+                     <img src="imagenes/ayuda.png" alt="">
+                     <h3>Centro de Ayuda</h3>
+                     <!-- <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     </p>
-                     <a href="#">Saber mas</a>
+                     </p> -->
+                     <a href="#"class="btn-1">Saber mas</a>
                 </div>
                 <div class="personal-1">
-                     <img src="imagenes/b3.jpg" alt="">
-                     <h3>Lorem</h3>
-                     <p>
+                     <img src="imagenes/calendario.png" alt="">
+                     <h3>Mis Reservas</h3>
+                     <!--<p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     </p>
-                     <a href="#">Saber mas</a>
+                     </p> -->
+                     <a href="#"class="btn-1">Saber mas</a>
                 </div>
            </div>
-           <a href="#" class="btn-1">Informacion</a>
-
-
+           <a href="#" class="btn-1">ayuda</a>
+    </section>
     </section>
 
     <footer>
@@ -210,16 +227,32 @@
                      </div>
                      <textarea class="campo" cols="30" rows="10" placeholder="Comentario"></textarea>
                      <input type="submit" value="Enviar" class="btn-1">
+                     <input type="submit" value="Registrarse" class="btn-1">
                 </form>
 
-
             </div>
-
-
+            <div class="footer-txt">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi necessitatibus, officiis aut nostrum blanditiis                 
+                </p>
+            </div>
     </footer>
 
 
-
+    <!-- JavaScript para el efecto de scroll -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbar = document.querySelector('.navbar-fixed');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
 
