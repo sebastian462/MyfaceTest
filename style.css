@@ -3,7 +3,6 @@
 
 /*  font-family: "Bebas Neue", sans-serif; */
 
-
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +11,7 @@
     list-style: none;
 
 }
+
 
 /* Barra de navegación fija */
 .navbar-fixed {
@@ -92,19 +92,6 @@ body {
     text-align: center;
 }
 
-/*.header {
-     
-     background-image: url(imagenes/encuesta.jpg);
-     background-position: center top;
-     background-repeat: no-repeat;
-     background-size: cover;
-     min-height: 70vh;
-     display: flex;
-     align-items: center;
-     opacity: 90%;
-     
-
-}*/
 
 .menu {
     position: absolute;
@@ -133,14 +120,6 @@ body {
     display: flex;
     align-items: center;
 }
-
-/*.logo{
-    font-size: 24px;
-    color: #2d79cf;
-    font-weight: 800;
-    text-transform: uppercase;
-}*/
-
 
 .menu  .navbar ul li {
      position: relative;
@@ -309,12 +288,9 @@ hr {
 .services-1 img {
      width: 170px;
      height: 180px;
-     border-radius: 25px;
+     border-radius: 35px;
      margin-bottom: 35px;
      padding: 30px;
-     /*width: 250px;
-     border-radius: 15px;
-     margin-bottom: 25px;*/
 }
 
 .services-1 h3 {
@@ -462,7 +438,7 @@ textarea{
 .footer-txt {
      text-align: center;
      padding: 10px;
-     background-color: #070707;
+     background-color: #ffffff;
 }
 
 
