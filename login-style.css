@@ -16,7 +16,7 @@ body {
      color: white;
      text-decoration: none;
      font-size: 16px;
-     
+
 }
 
 .formulario {
@@ -26,8 +26,7 @@ body {
      transform: translate(-50%, -50%);
      width: 400px;
      background: #fff;
-     border-radius: 10px;
-     
+     border-radius: 10px;  
 }
 
 .formulario h1{
@@ -80,9 +79,10 @@ form .username {
 }
 
 .username input:focus ~ label,
-.username input:focus ~ label{
+.username input:valid ~ label{
      top: -5px;
      color: #00a2ff;
+     transition: top 0.3s ease, color 0.3s ease;
 }
 
 .username input:focus ~ span::before,
